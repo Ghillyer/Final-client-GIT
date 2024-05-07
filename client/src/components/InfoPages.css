@@ -1,0 +1,21 @@
+
+.info-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .info-page h1 {
+    color: #2E3A59; 
+  }
+  
+  .info-page h2 {
+    color: #333;
+  }
+  
+  .info-page p {
+    color: #666;
+    line-height: 1.6;
+  }
+  

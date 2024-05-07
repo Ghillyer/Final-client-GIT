@@ -1,0 +1,66 @@
+
+.card-listing-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f4; 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif; 
+}
+
+.card-listing-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-listing-form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333; 
+}
+
+.card-listing-form input[type="text"],
+.card-listing-form input[type="number"],
+.card-listing-form input[type="file"],
+.card-listing-form select,
+.card-listing-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: #fff; 
+  width: calc(100% - 20px); 
+}
+
+.card-listing-form textarea {
+  height: 100px;
+  resize: vertical; 
+}
+
+.card-listing-form input[type="radio"] {
+  margin-right: 10px; 
+}
+
+.card-listing-form button {
+  padding: 10px 20px; 
+  color: white;
+  background-color: #607D8B; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto; 
+}
+
+.card-listing-form button:hover {
+  background-color: #78909C; 
+}
+
+
+@media (max-width: 768px) {
+  .card-listing-form {
+    padding: 15px; 
+    margin: 20px; 
+  }
+}

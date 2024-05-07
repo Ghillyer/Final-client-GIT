@@ -1,0 +1,16 @@
+
+.listings-page {
+    padding: 20px;
+    background-color: #f4f4f4; 
+  }
+  
+  .listings-page h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .listing-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }

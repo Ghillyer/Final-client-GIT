@@ -1,0 +1,50 @@
+
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-intro, .about-team, .about-mission {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2, h3 {
+    color: #2E3A59; 
+  }
+  
+  p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    flex-basis: 45%; 
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+  }
+  
+  .team-member h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      flex-basis: 100%;
+    }
+  }
+  
