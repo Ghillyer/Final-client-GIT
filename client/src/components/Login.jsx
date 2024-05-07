@@ -24,7 +24,7 @@ function Login() {
         }
       };
       const { data } = await axios.post(
-        'https://final-server-git.onrender.com/api/users',
+        'https://final-server-git.onrender.com/api/users/login',
         formData,
         config
       );
