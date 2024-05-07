@@ -24,7 +24,7 @@ function Signup() {
           'Content-Type': 'application/json'
         }
       };
-      await axios.post('http://localhost:5000/api/users/signup', formData, config);
+      await axios.post('https://final-server-git.onrender.com/api/users', formData, config);
       console.log('Signup successful');
       navigate('/login'); 
     } catch (error) {

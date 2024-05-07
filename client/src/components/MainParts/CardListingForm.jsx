@@ -52,7 +52,7 @@ const CardListingForm = () => {
           'Authorization': `Bearer ${token}`
         }
       };
-      const response = await axios.post('http://localhost:5000/api/cards/list', data, config);
+      const response = await axios.post('https://final-server-git.onrender.com/api/cards', data, config);
   
       console.log(response.data); 
       alert('Card listed successfully!');

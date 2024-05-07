@@ -9,7 +9,7 @@ const CardListingsContainer = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/cards/')
+    axios.get('https://final-server-git.onrender.com/api/cards/')
       .then(response => {
         setCards(response.data);
         setLoading(false);

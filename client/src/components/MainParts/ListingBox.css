@@ -1,23 +1,23 @@
-/* CardListingForm.css */
+
 .listing-box {
   display: flex;
-  align-items: stretch; /* This will make all children of the listing-box fill the available height */
+  align-items: stretch; 
   border: 1px solid #ccc;
   margin-bottom: 10px;
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 .listing-image {
-  flex: 0 0 150px; /* Fixed width, but flexible in terms of filling the height */
+  flex: 0 0 150px; 
   display: flex;
-  align-items: center; /* Centers the image vertically */
+  align-items: center; 
 }
 
 .listing-image img {
-  width: 100%; /* Full width of the listing-image div */
+  width: 100%; 
   height: auto;
-  max-height: 100%; /* Ensure it does not exceed the container height */
-  object-fit: cover; /* Covers the width, might crop the top/bottom depending on aspect ratio */
+  max-height: 100%; 
+  object-fit: cover; 
 }
 
 .listing-info {
@@ -27,7 +27,7 @@
 
 .listing-title, .listing-player-name, .listing-description, .listing-condition, .listing-graded {
   margin-bottom: 5px;
-  color: #333; /* Darker shade for better readability */
+  color: #333; 
 }
 
 .listing-price-shipping span {
